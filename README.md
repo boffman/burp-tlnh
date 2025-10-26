@@ -17,7 +17,7 @@ This extension monitors HTTP requests passing through Burp's Proxy and highlight
 
 ### From GitHub Releases
 
-1. Download the latest `top-level-navigation-highlighter-X.X-SNAPSHOT.jar` file from the [Releases](https://github.com/boffman/burp-tlnh/releases) page
+1. Download the latest `top-level-navigation-highlighter-X.X.X.jar` file from the [Releases](https://github.com/boffman/burp-tlnh/releases) page
 2. Open Burp Suite
 3. Go to the **Extensions** tab
 4. Click **Add** under "Installed"
@@ -50,7 +50,7 @@ Follow the build instructions below to create the JAR file yourself.
 1. Clone the repository:
    ```bash
    git clone https://github.com/boffman/burp-tlnh.git
-   cd toplevelnavigationhighlighter
+   cd burp-tlnh
    ```
 
 2. Build with Maven:
@@ -60,7 +60,7 @@ Follow the build instructions below to create the JAR file yourself.
 
 3. The compiled JAR file will be created in the `target/` directory:
    ```
-   target/top-level-navigation-highlighter-1.0-SNAPSHOT.jar
+   target/top-level-navigation-highlighter-1.1.0-SNAPSHOT.jar
    ```
 
 4. Load this JAR file into Burp Suite using the installation steps above
